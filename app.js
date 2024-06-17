@@ -18,5 +18,5 @@ app.use('/' , require('./server/routes/main'));
 
 
 app.listen(PORT, ()=> {
-    console.log(`App listening on port ${PORT}`);
+    console.log(`App listening on the port ${PORT}`);
 })
